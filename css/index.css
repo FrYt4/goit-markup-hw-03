@@ -9,10 +9,26 @@
 
 --brand-color-CLOUD:#F4F4FD;
 --brand-color-CORNFLOWER:  #E7E9FC;
+--gap: 10px
 
   }
 
+.section{
+    padding-block:120px;
+}
 
+.container{
+    width: 1128px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.wrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
 
   body{
   font-family:"Roboto" , sans-serif;
@@ -65,8 +81,7 @@ color:var(--brand-color-navyblue);
     color: var(--brand-color-ocean) ;
     }
                         
-    
-    
+  
         /*HERO*/
      .hero{
         background-color:var(--brand-color-navyblue) ;
@@ -91,6 +106,7 @@ color:var(--brand-color-navyblue);
     cursor: pointer ;
     font-size: 16px ;
     font-family: "Roboto",sans-serif;
+    text-align: center;
      }
 
      .hero-btn:hover,
@@ -98,6 +114,21 @@ color:var(--brand-color-navyblue);
      .hero-btn:active{
     background-color:var(--brand-color-ocean) ;
      }
+
+.section-important{
+    padding-block:120px
+}
+
+.caption-important{
+padding: 32px 16;
+text-align: center;
+}
+
+.important-item{
+   width: 264px;
+   border-radius: 0px;
+
+}
 
 .important-tittle{
     font-size: 20px ;
@@ -113,6 +144,12 @@ color:var(--brand-color-navyblue);
     letter-spacing:0.02em ;
 }
                         /*WHAT ARE WE DOING OFFERT*/
+
+.caption-what-are-we-doing{
+    text-align: center;
+    padding: 32px 16px ;
+}
+
 .studio-head{
     font-size: 36px ; 
     line-height: 1.11 ;
@@ -124,14 +161,24 @@ color:var(--brand-color-navyblue);
 
 
                         /*TEAM*/
-.team-section{
-    background-color: var(--brand-color-CLOUD) ;
+.section.our-team{
+    background-color: var(--brand-color-CLOUD);
 }
 
-.team-link{
+.list-our-team{
+    gap: var(--gap);
+}
+
+.item-our-team{
     background-color: #FFFFFF;
+    border-radius:0px 0px 4px 4px;
+    width: var(--brand-color-white);
 }
 
+.caption-our-team{
+    padding: 32px 16px;
+    text-align: center;
+}
 
 .team-head{
     font-size: 36px ;
@@ -141,10 +188,6 @@ color:var(--brand-color-navyblue);
     text-transform: capitalize ;
     color: var(--brand-color-navyblue) ;
     }
-
-.team-list{
-    background-color: var(--brand-color-white) ;
-}
 
 .team-tittle{
     color: #2E2F42 ;
@@ -166,6 +209,10 @@ color:var(--brand-color-navyblue);
     color:var(--brand-color-iris) ;
 }
 
+.section-footer{
+    background-color: var(--brand-color-navyblue);
+    padding-block:120px
+}
 
 .footer-span{
 color:var(--brand-color-CLOUD);
@@ -227,6 +274,12 @@ background-color:#404BBF;
 .all-btn:focus:focus,
 .all-btn:active:active {
     background-color: #FFFFFF;
+}
+.section-portfolio{
+    padding: 96px 0 120px 0;
+}
+.project-list-filters{
+    gap:var(--gap);
 }
 
  .project-tittle{

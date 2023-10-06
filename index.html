@@ -6,18 +6,15 @@
    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pracadomowa2.mainpage</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
     <link href="/https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,900;1,500;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/index.css">
 </head>
 <body>
     <header >
-    
+    <div class="container">
         <nav>
             <a class="logo link" href="./index.html">Web<span class="logo-span">Studio</span></a>
            
@@ -26,7 +23,7 @@
                 <li><a class="menu-link link" href="./portfolio.html" >Portfolio</a></li>
                 <li><a class="menu-link link" href="" >Contacts</a></li>
             </ul>
-        </nav> 
+         </nav> 
         <address class="address">
 
             <ul class="list link" >
@@ -34,47 +31,59 @@
    <li><a class="address-item link" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
             </ul>
 </address>
-
+    </div>
 </header>
     <main>
                               <!--Hero-->
-    <section class="hero">
+    <section class="hero section">
+        <div class="container">
     <h1 class="hero-title">Effective Solutions
     for Your Business</h1> 
 
     <button type="button" class="hero-btn">Order Service</button>
+</div>
     </section>
 
     <!--Importants-->
-    <section>
+    <section class="section">
+        <div class="container">
         <h2>Important Things</h2>
-        <ul class="list">
-        <li>   
-        <h3 class="important-tittle">Strategy</h3>
+        <ul class="list wrap">
+        <li class="important-item">
+            <div class="caption-important">
+         <h3 class="important-tittle">Strategy</h3>
         <p class="important-text">Our goal is to identify the business
             problem to walk away with the perfect and creative solution. </p>
-        </li>
-        <li>
+       </div> 
+    </li>
+        <li class="important-item">
+            <div class="caption-important">
         <h3 class="important-tittle">Punctuality</h3>
 <p class="important-text">Bring the key message to the brand's audience for the best price within the shortest possible time.</p>
-        </li>
-        <li>
+        </div>
+    </li>
+        <li class="important-item">
+            <div class="caption-important">
         <h3 class="important-tittle">Diligence</h3>
         <p class="important-text">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
-        </li>
-        <li>
+       </div>
+     </li>
+        <li class="important-item"> 
+            <div class="caption-important">
         <h3 class="important-tittle">Technologies</h3>
         <p class="important-text">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
-        </li>
+        </div> 
+    </li>
     </ul>
-
+        </div>
     </section>
     <!--What are we doing-->
-    <section>
+    <section class="section">
+        <div class="container">
         <h2 class="studio-head">What are we doing</h2>
 
 
-        <ul class="offer list">
+        <ul class="offer list wrap">
 <li>
 <img src="./images/Rectangle71.jpg" alt="monitor" width="360" height="300"
 >
@@ -88,55 +97,65 @@
 >
 </li>
 </ul>
+        </div>
     </section>
 
-<section class="team-section">
+<section class="section our-team">
+<div class="container"> 
 <h2 class="team-head">Our Team</h2>
-<ul class="team-list list">
-    <li class="team-link">
+<ul class="list-our-team list wrap">
+    <li class="item-our-team">
         <img src="./images/img1.jpg" 
         alt="Man in blue shirt and short stubble" 
         width="264" 
         height="260"
         >
+        <div class="caption-our-team">
         <h3 class="team-tittle">Mark Guerrero</h3>
         <p class="team-text">Product Designer</p>
+        </div>
     </li>
-    <li class="team-link">
+    <li class="item-our-team">
         <img 
         src="./images/img2.jpg" 
         alt="Man in blue shirt and short stubble" 
         width="264" 
         height="260"
         >
+        <div class="caption-our-team">
         <h3 class="team-tittle">Tom Ford</h3>
         <p class="team-text">Frontend Developer</p>
-    </li>
-      <li class="team-link">
+    </div>
+</li>
+      <li class="item-our-team">
         <img 
         src="./images/img3.jpg" 
         alt="Girl in ping sweater and brown hairs" 
         width="264" 
         height="260"
         >
+        <div class="caption-our-team">
         <h3 class="team-tittle">Camila Garcia</h3>
         <p class="team-text">Marketing</p>
-    </li>
-     <li class="team-link">
+    </div>
+</li>
+     <li class="item-our-team">
         <img src="./images/img4.jpg" alt="Man in grey t-shirt and short stubble" width="264" height="260"
         >
-
+<div class="caption-our-team">
         <h3 class="team-tittle">Daniel Wilson</h3>
         <p class="team-text">UI Designer</p>
-    </li>
+</div>
+</li>
 </ul>
-
+</div>
 </section>
 </main>
+<section class="section section-footer">
     <footer class="footer">
         
         <a class="footer-logo link" href="./index.html">Web<span class="footer-span">Studio</span></a>>
         <p class="footer-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
     </footer>
-
+</section>
 </body>
