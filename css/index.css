@@ -248,12 +248,9 @@ text-align: center;
                                              /* Footer*/
 .footer {
     background-color: var(--brand-color-navyblue) ;
-    color:var(--brand-color-iris) ;
-}
+    padding:100px 0 100px ;
 
-.section-footer{
-    background-color: var(--brand-color-navyblue);
-    padding: 100px 0;
+
 }
 
 .footer-span{
@@ -268,8 +265,11 @@ color:var(--brand-color-CLOUD);
     letter-spacing: 0.03em ;
     text-transform: uppercase ;
     color: var(--brand-color-iris);
-    margin-bottom: 16px;
+}
+
+.link-footer{
     display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer-text{
