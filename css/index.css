@@ -147,16 +147,8 @@ color:var(--brand-color-navyblue);
     background-color:var(--brand-color-ocean) ;
      }
 
-
-.caption-important{
-padding: 32px 16;
-text-align: center;
-}
-
 .important-item{
-   width: 264px;
-   border-radius: 0px;
-   width: calc((100%-72px)/4);
+  width: calc((100%-72px)/4);
 
 }
 
@@ -173,7 +165,11 @@ text-align: center;
     clip-path: inset(100%);
     flex-wrap: nowrap;
 }
-    
+    .important-list{
+        gap:24px;
+        display: flex;
+        
+    }
 
 .important-tittle{
     font-size: 20px ;
@@ -194,6 +190,11 @@ text-align: center;
 .caption-what-are-we-doing{
     text-align: center;
     padding: 32px 16px ;
+}
+
+.studio-list{
+  gap: 24px;
+  display: flex;  
 }
 
 .studio-head{
@@ -218,11 +219,11 @@ text-align: center;
 }
 
 .list-our-team{
-    gap: var(--gap);
+    gap: 24px;
+    display: flex;
 }
 
 .item-our-team{
-    background-color: #FFFFFF;
     border-radius:0px 0px 4px 4px;
     width:calc((100%-72px)/4);
 
@@ -230,8 +231,8 @@ text-align: center;
 }
 
 .caption-our-team{
-    padding: 32px 16px 32px;
-    text-align: center;
+    padding: 32px 0;
+
 }
 
 .team-head{
