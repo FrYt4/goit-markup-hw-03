@@ -18,17 +18,10 @@
 }
 
 .container{
-    width: 100%;
     width: 1158px;
-    margin: auto;
-    justify-content: space-between;
+    margin: 0 auto;
     padding: 0 15px;
     display: flex;
-}
-
-.wrap{
-    flex-wrap: wrap;
-    gap: 15px;
 }
 
   body{
@@ -96,8 +89,6 @@ color:var(--brand-color-navyblue);
   .header{
     padding: 24px 0 24px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
   }
         /*HERO*/
      .hero{
@@ -394,14 +385,8 @@ line-height: 1.5 ;
 letter-spacing: 0.02em ;
 text-decoration: none;
 color: #434455;
-display: inline;
-margin-right:  50px;
 }
  
-.address-item:last-child{
-margin-right: 0;
-}
-
 .list{
     list-style: none;
     display: flex;
