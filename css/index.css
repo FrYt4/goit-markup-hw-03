@@ -20,7 +20,7 @@
 .container{
     width: 1158px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 15px 0 15px;
     display: flex;
 }
 
@@ -304,7 +304,8 @@ background-color:#404BBF;
 
 .button-p{
     padding: 12px 24px;
-    border: 1px solid color#E7E9FC;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
 }
 
 .button-p:hover,
@@ -406,3 +407,7 @@ img{
     display: block;
 }
 
+*{
+    margin: 0;
+    padding: 0;
+}
