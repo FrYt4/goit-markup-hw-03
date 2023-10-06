@@ -252,12 +252,14 @@ color:var(--brand-color-navyblue);
     line-height: 1.2 ;
     letter-spacing: 0.02em ;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .team-text{
     font-size: 16px ;
     line-height: 1.5 ;
     letter-spacing: 0.02em ;
+    text-align: center;
     }
 
                                              /* Footer*/
@@ -283,8 +285,8 @@ color:var(--brand-color-CLOUD);
 }
 
 .link-footer{
-    display: inline-block;
     margin-bottom: 16px;
+    display: inline-block;
 }
 
 .footer-text{
