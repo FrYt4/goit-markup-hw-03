@@ -13,8 +13,25 @@
 
   }
 
-.section{
-    padding-block:120px;
+.section-first{
+    padding:188px;
+    background-color: var(--brand-color-navyblue);
+}
+
+.section-second{
+    padding: 120px 0;
+}
+.section-three{
+    padding-bottom: 120px;
+}
+.section-four{
+background-color:#F4F4FD ;
+padding: 120px 0;
+
+}
+.section-portfolio{
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
 .container{
@@ -130,9 +147,6 @@ color:var(--brand-color-navyblue);
     background-color:var(--brand-color-ocean) ;
      }
 
-.section-important{
-    padding-block:120px
-}
 
 .caption-important{
 padding: 32px 16;
@@ -142,7 +156,7 @@ text-align: center;
 .important-item{
    width: 264px;
    border-radius: 0px;
-   width: calc((100%-72px)/5);
+   width: calc((100%-72px)/4);
 
 }
 
@@ -338,9 +352,6 @@ background-color:#404BBF;
     width: calc((100%-48px)/3);
 }
 
-.section-portfolio{
-    padding: 96px 0 120px 0;
-}
 .project-list{
     justify-content: center;
     display: flex;
