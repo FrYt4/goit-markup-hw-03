@@ -38,6 +38,7 @@ padding: 120px 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
+    display: flex;
 }
 
   body{
@@ -264,6 +265,7 @@ color:var(--brand-color-navyblue);
 .footer {
     background-color: var(--brand-color-navyblue) ;
     padding:100px 0 100px ;
+    display: inline-block;
 
 
 }
