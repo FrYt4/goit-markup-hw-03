@@ -17,17 +17,6 @@
 }
   }
 
-  ul,
-  ol {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-  }
-  .list {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-  }
 
 .section-first{
     padding:188px;
@@ -54,7 +43,7 @@ padding: 120px 0;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px 0 15px;
-    display: flex;
+
 }
 
   body{
